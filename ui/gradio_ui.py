@@ -39,7 +39,7 @@ def create_ui():
 
                 chatbot = gr.Chatbot(
                     label="Chat",
-                    height=700
+                    height=350
                 )
 
                 msg = gr.Textbox(
